@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Manage\Data\" />
+    <Folder Include="Areas\Manage\Models\" />
+    <Folder Include="wwwroot\images\about\" />
+    <Folder Include="wwwroot\images\payment\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\manage\app-assets\.DS_Store" />
+    <None Include="wwwroot\manage\app-assets\fonts\.DS_Store" />
+    <None Include="wwwroot\manage\app-assets\images\.DS_Store" />
+    <None Include="wwwroot\manage\app-assets\images\misch\.DS_Store" />
+    <None Include="wwwroot\manage\app-assets\vendors\.DS_Store" />
+    <None Include="wwwroot\manage\app-assets\vendors\chartist-js\.DS_Store" />
+    <None Include="wwwroot\manage\app-assets\vendors\chartjs\.DS_Store" />
+    <None Include="wwwroot\manage\app-assets\vendors\data-tables\.DS_Store" />
+    <None Include="wwwroot\manage\app-assets\vendors\data-tables\css\.DS_Store" />
+    <None Include="wwwroot\manage\app-assets\vendors\data-tables\extensions\.DS_Store" />
+    <None Include="wwwroot\manage\app-assets\vendors\data-tables\extensions\responsive\.DS_Store" />
+    <None Include="wwwroot\manage\app-assets\vendors\data-tables\extensions\responsive\css\.DS_Store" />
+    <None Include="wwwroot\manage\app-assets\vendors\data-tables\extensions\responsive\js\.DS_Store" />
+    <None Include="wwwroot\manage\app-assets\vendors\data-tables\js\.DS_Store" />
+    <None Include="wwwroot\manage\app-assets\vendors\dropify\.DS_Store" />
+    <None Include="wwwroot\manage\app-assets\vendors\flag-icon\.DS_Store" />
+    <None Include="wwwroot\manage\app-assets\vendors\fullcalendar\.DS_Store" />
+    <None Include="wwwroot\manage\app-assets\vendors\jquery-jvectormap\.DS_Store" />
+    <None Include="wwwroot\manage\app-assets\vendors\sweetalert\.DS_Store" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MailKit" Version="4.9.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.11">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.7" />
+    <PackageReference Include="MimeKit" Version="4.9.0" />
+  </ItemGroup>
+
+</Project>
